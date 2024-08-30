@@ -1,8 +1,11 @@
 import Link from "next/link";
 import dbConnect from "../lib/dbConnect";
 import Pet from "../models/Pet";
+import Hours from "../components/Hours";
+
 
 // TODO: Import Hours component
+<Hours />
 
 const Index = ({ pets }) => {
 
